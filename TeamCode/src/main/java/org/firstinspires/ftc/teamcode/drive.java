@@ -38,6 +38,7 @@ public class drive extends LinearOpMode {
             telemetry.addData("FL Power", frontLeft.getPower());
             telemetry.addData("BR Power", backRight.getPower());
             telemetry.addData("BL Power", backLeft.getPower());
+            telemetry.update();
         }
     }
 
